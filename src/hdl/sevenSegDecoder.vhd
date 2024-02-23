@@ -1,3 +1,4 @@
+
 ----------------------------------------------------------------------------------
 -- Company: 
 -- Engineer: 
@@ -70,6 +71,11 @@ begin
                        (i_D = x"C") or
                        (i_D = x"E") or
                        (i_D = x"F") ) else '0';
+    c_Sa <= '1' when ( (i_D = x"1") or
+                       (i_D = x"4") or
+                       (i_D = x"B") or
+                       (i_D = x"C") or
+                       (i_D = x"D") ) else '0';
     c_Sd <= '1' when ( (i_D = x"1") or
                        (i_D = x"4") or
                        (i_D = x"7") or
